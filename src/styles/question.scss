@@ -9,6 +9,14 @@
         margin-top: 1.625rem;
     }
 
+    &.answered {
+
+    }
+
+    &.highLighted {
+        
+    }
+
     p {
         color: #29292e;
     }
@@ -35,6 +43,11 @@
                 color: #737380;
                 font-size: 0.875rem;
             }
+        }
+
+        > div {
+            display: flex;
+            gap: 0.875rem;
         }
 
         button {
