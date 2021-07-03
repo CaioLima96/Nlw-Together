@@ -148,6 +148,11 @@
     #page-auth {
         display: block !important;
 
+        aside {
+            height: 100vh !important;
+            text-align: center !important;
+        }
+
         main {
             height: 100vh !important;
         }

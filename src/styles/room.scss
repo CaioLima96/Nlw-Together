@@ -112,6 +112,26 @@
     }
 }
 
+@media (max-width: 405px) {
+    header {
+        .content {
+            .room-code {
+                span {
+                    font-size: 0.75rem !important;
+                }
+            }
+        }
+    }
+
+    main {
+        .room-tittle {
+            h1 {
+               font-size: 1.125rem !important;
+            }
+        }
+    }
+}
+
 @media (max-width: 785px) {
     #page-room {
         padding: 1rem !important;

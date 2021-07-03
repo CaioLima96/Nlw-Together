@@ -10,6 +10,7 @@ import { database } from '../services/firebase'
 import { useAuth } from '../hooks/useAuth'
 
 import '../styles/auth.scss'
+import '../styles/newRoom.scss'
 
 export function NewRoom() {
     const { user } = useAuth()
