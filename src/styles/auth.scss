@@ -144,3 +144,12 @@
     }
 }
 
+@media (max-width: 785px) {
+    #page-auth {
+        display: block !important;
+
+        main {
+            height: 100vh !important;
+        }
+    }
+}

@@ -1,4 +1,5 @@
 #page-room {
+
     header {
         padding: 1.5rem;
         border-bottom: 1px solid #e2e2e2;
@@ -109,4 +110,51 @@
             margin-bottom: 2rem;
         }
     }
+}
+
+@media (max-width: 785px) {
+    #page-room {
+        padding: 1rem !important;
+    }
+
+    header {
+        .content {
+            flex-direction: column !important;
+
+            > img {
+                margin-bottom: 1rem !important;
+            }
+
+            > div {
+                flex-direction: column !important;
+
+                button {
+                    margin-left: 0 !important;
+                }
+            
+                .room-code {
+                    margin-bottom: 1rem !important;
+                }
+            }
+        }
+    }
+
+    main {
+        .room-tittle {
+            flex-direction: column !important;
+
+            h1 {
+                margin-bottom: 0.625rem !important;
+            }
+
+            span {
+                margin-left: 0 !important;
+            }
+        }
+
+        form .form-footer button {
+            padding: 0 1.375rem !important;
+        }
+    }
+    
 }
